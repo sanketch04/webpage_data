@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="#" method="#">
+        <h1>Student Registration Form</h1>
+        <hr>
+        <div class="name-first">
+            <label class="head-name">Full Name:<span>*</span></label>
+            <div class="name-one ">
+            <input type="text" class="name-section"  required><label class="label-name">First Name</label>
+        </div>
+            <div class="name-one">
+            <input type="text" class="name-section "><label class="label-name" >Middle Name</label>
+        </div>
+        <div class="name-one">
+            <input type="text" class="name-section" required> <label class="label-name">Last Name</label>
+        </div>
+        </div>
+        <div class="student-info">
+            <div class="passing">
+            <label class="stud-num">Student Number:</label>
+            <input type="text" placeholder="ex.112311" class="stud-number">
+        </div>
+        <div class="passing">
+            <label class="stud-num">Passing Year:<span>*</span></label>
+           <input type="search" list="pass-year" class="stud-number" placeholder="select year">
+           <datalist id="pass-year">
+            <option value="selectyear" disabled selected>Select Year</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+           </datalist>
+       </div>
+        </div>
+        <div class="d-email">
+            <div class="degree">
+                <label class="select-d">Select Degree:</label>
+               <input type="search" list="degree-select" class="degree-email">
+               <datalist id="degree-select">
+                <option value="selectyear" disabled selected>Select Year</option>
+                <option>BS in Pre-Med Physics</option>
+                <option>BS in Physics minor in Economics</option>
+                <option>BS in Physics with specialization in Material Science</option>
+                <option>BS in Physics with specialization in Material Science</option>
+                <option>MS in Physics</option>
+                <option>PhD in Physics</option>
+                <option>Bsc(E.C.S)</option>
+                <option>B.C.A</option>
+                <option>Bsc Computer</option>
+                <option>Bsc Agree</option>
+               </datalist>
+           </div>
+           <div class="email">
+            <label class="select-d">Enter email:<span>*</span></label>
+            <input type="email" placeholder="Enter email" class="degree-email">
+           </div>
+        </div>
+      <div class="phone-tel">
+        <div class="phone">
+            <label for="" class="pt">Enter Mobile No:<span>*</span></label>
+            <input type="text" minlength="10" maxlength="10" class="degree-email-inp">
+        </div>
+        <div class="phone">
+            <label for="" class="pt">Enter Telephon:</label>
+            <input type="text" placeholder="Enter Telephone No" class="degree-email-inp">
+        </div>
+      </div>
+      <br>
+      <div class="gender">
+        <label for="">Select Your Gender:</label>
+        <select name="" id="">
+        <option value="" disabled selected required>select gender</option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+        <option value="">Others</option>
+        </select>
+      </div>
+      <div class="address-div">
+        <label for="">Your Communication Address:</label>
+        <input type="text" class="address">
+      </div>
+      <div class="address2-div">
+        <label for="">Your Permenent Address:</label>
+        <input type="text" class="address2" required>
+      </div>
+      <input type="submit" name="" value="submit">
+    </form>
+</body>
+</html>
